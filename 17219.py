@@ -1,3 +1,4 @@
+# 메모리: 49172, 시간: 280ms
 import sys
 input = sys.stdin.readline
 
