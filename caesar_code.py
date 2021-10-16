@@ -9,6 +9,7 @@ def solution(s, n):
         elif c in lower:
             index_loc = lower.find(c) + n
             result += lower[index_loc % 26]  # 나머지를 통해 index_loc의 값이 알파벳 개수를 초과하여도 값을 반환
+            
         elif c in upper:
             index_loc = upper.find(c) + n
             result += upper[index_loc % 26]
