@@ -1,3 +1,4 @@
+# 메모리: 240964KB, 시간: 628ms
 S = input()
 S_part = set()
 for i in range(0, len(S)):
