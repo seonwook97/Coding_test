@@ -1,23 +1,11 @@
-import sys
-input = sys.stdin.readline
+n = int(input())
 
-X = int(input())
-count = 0
-
-for i in range(1, X + 1):
+c = 0
+for i in range(1, n+1):
     if i < 100:
-        count += 1
-    elif i == 1000:
-        continue
-    else:    # 3자리수일 때
-        for num in str(i):
-            num_list = []
-            num_list.append(int(num))
+        c+=1
+    else:
+        if (i//100 - i//10%10) == (i//10%10 - i%10):
+            c+=1
 
-        d_1 = num_list[0] - num_list[1] 
-        d_2 = num_list[1] - num_list[2]
-        
-        if d_1 == d_2:
-            count += 1
-
-print(count)
+print(c)
