@@ -1,3 +1,4 @@
+# 클린코드
 from collections import deque
 import sys
 
