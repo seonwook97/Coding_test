@@ -27,8 +27,9 @@ for searchNum in m_list:
     end = n - 1
     print(find_num(searchNum, start, end))
 
+# 메모리: 45104KB, 시간: 904ms
 # 풀이 2
-# 직관적 이진탐색 풀이
+# 직관적 이진탐색
 input_num = int(input())
 numbers = list(map(int, input().split()))
 numbers.sort()
