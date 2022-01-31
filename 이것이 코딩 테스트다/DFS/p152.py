@@ -1,4 +1,4 @@
-# 미로 탈출 p.152
+# 음료수 얼려 먹기 p.152
 graph = []
 n, m = map(int, input().split())
 for _ in range(n):
