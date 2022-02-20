@@ -7,7 +7,6 @@ n = int(input()) # 도시의 개수
 m = int(input()) # 버스의 개수
 
 graph = [[] for _ in range(n+1)] # 주어지는 그래프 정보 담는 N개 길이의 리스트
-visited = [False] * (n+1) # 방문처리 기록용
 distance = [INF] * (n+1) # 거리 테이블용
 
 for _ in range(m):
