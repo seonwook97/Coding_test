@@ -1,4 +1,3 @@
-# 커밋 변경
 import sys
 input = sys.stdin.readline
 INF = int(1e9)
