@@ -45,4 +45,4 @@ def dijkstra(start):
                 distance[next[0]] = cost
 
 dijkstra(s)
-print(distance[e])
+print(distance)
