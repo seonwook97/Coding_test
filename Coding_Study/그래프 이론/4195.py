@@ -1,3 +1,4 @@
+# pypy3
 import sys
 input = sys.stdin.readline
 # Union-Find 알고리즘
