@@ -41,7 +41,7 @@ def solve(board, nutritions, tree_dict, k):
 
             cnt = len(trees)
             temp_trees = []
-            # 봄 & 여름
+            # 본 & 여름
             while 0 < cnt:
                 tree = trees.pop()
                 checked = nutrition - tree
@@ -76,7 +76,7 @@ def solve(board, nutritions, tree_dict, k):
                 continue
 
             for i in value:
-                # 젤 큰 나무가 5보다도 작으면 패쓰
+                # 젤 큰 나무가 5보다도 작으면 패스
                 if i < 5:
                     break
                 if i % 5 == 0:
