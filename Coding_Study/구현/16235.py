@@ -41,7 +41,7 @@ def solve(board, nutritions, tree_dict, k):
 
             cnt = len(trees)
             temp_trees = []
-            # 본 & 여름
+            # 봄 & 여름
             while 0 < cnt:
                 tree = trees.pop()
                 checked = nutrition - tree
