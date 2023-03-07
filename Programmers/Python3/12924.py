@@ -1,3 +1,4 @@
+# 숫자의 표현
 # 완전탐색
 def solution(n):
     answer = 0
