@@ -1,3 +1,4 @@
+# 타겟 넘버
 from collections import deque
 
 #1 deque, BFS
