@@ -1,3 +1,4 @@
+# 괄호 회전하기
 def solution(s):
     answer = 0
     temp = list(s)
