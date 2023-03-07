@@ -1,3 +1,4 @@
+# H-Index
 # 완전탐색
 def solution(citations):
     citations.sort() # 정렬
