@@ -1,3 +1,4 @@
+# 카펫
 # def solution(brown, yellow):
 #     total_cnt = brown + yellow # 가로 * 세로 = total_cnt
 #     for b in range(1, total_cnt+1): # 세로가 가로보다 작거나 같으므로 세로를 기준으로 늘려가면서 조건 충족
