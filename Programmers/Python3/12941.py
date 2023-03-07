@@ -1,3 +1,4 @@
+# 최솟값 만들기
 def solution(a, b):
     answer = 0
     a = sorted(a)
