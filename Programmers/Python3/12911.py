@@ -1,3 +1,4 @@
+# 다음 큰 숫자
 def solution(n):
     # 조건 1
     answer = n + 1
