@@ -1,3 +1,4 @@
+# 영어 끝말잇기
 def solution(n, words):
     for i in range(1, len(words)):
         # 끝말잇기 규칙: 앞단어 끝 문자 = 뒷단어 첫문자, 이전에 나왔던 단어가 나오면 안됨
