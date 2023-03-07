@@ -1,3 +1,4 @@
+# 두 개 뽑아서 더하기
 def solution(numbers):
     set_sum = set() # list안의 인덱스가 다른 두 개의 숫자를 뽑아서 더한 값들 중 중복값을 피하기 위해 set()으로 일단 반환!
     for i in range(0, len(numbers)):
