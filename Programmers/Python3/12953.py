@@ -1,3 +1,4 @@
+# N개의 최소공배수
 from math import gcd
 def solution(arr):
     answer = arr[0]
