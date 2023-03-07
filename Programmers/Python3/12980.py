@@ -1,3 +1,4 @@
+# 점프와 순간 이동
 # n = 7
 def solution(n):
     usage = 0
