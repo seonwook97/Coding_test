@@ -1,3 +1,4 @@
+# 하샤드 수
 def solution(x):
     list_num = list(str(x))
     sum_num = 0
