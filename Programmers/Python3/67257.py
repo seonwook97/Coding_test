@@ -1,3 +1,4 @@
+# 수식 최대화
 # expression = "100-200*300-500+20"
 def solution(expression):
     operations = [('+', '-', '*'),
