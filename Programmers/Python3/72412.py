@@ -1,3 +1,4 @@
+# 순위 검색
 # 정확성: O, 효율성: X
 def solution(info, query):
     for i in range(len(info)):
