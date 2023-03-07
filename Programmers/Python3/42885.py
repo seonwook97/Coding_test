@@ -1,3 +1,4 @@
+# 구명보트
 def solution(people, limit):
     people = sorted(people)
     answer = 0
