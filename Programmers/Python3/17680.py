@@ -1,3 +1,4 @@
+# [1차] 캐시
 def solution(cacheSize, cities):
     cache = []
     time = 0
