@@ -1,3 +1,4 @@
+# 올바른 괄호
 def solution(s):
     stack = []
     for i in s:
