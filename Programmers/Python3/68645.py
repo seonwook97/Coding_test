@@ -1,3 +1,4 @@
+# 삼각 달팽이
 # n = 4
 def solution(n):
     arr = [[0] * n for _ in range(n)]
