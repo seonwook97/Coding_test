@@ -1,3 +1,4 @@
+# 피보나치 수
 # 반복문
 def fib(n):
     curr, next = 0, 1
