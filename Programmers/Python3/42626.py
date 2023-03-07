@@ -1,3 +1,4 @@
+# 더 맵게
 import heapq
 def solution(scoville, K):
     heapq.heapify(scoville)
