@@ -1,3 +1,4 @@
+# 짝지어 제거하기
 def solution(s):
    stack = []
    for i in range(len(s)):
