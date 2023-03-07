@@ -1,3 +1,4 @@
+# 게임 맵 최단거리
 from collections import deque
 def solution(maps):
         # 방문 맵
