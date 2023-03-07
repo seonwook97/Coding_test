@@ -1,3 +1,4 @@
+# JadenCase 문자열 만들기
 def solution(s):
     s = s.split(' ')
     new_s = []
