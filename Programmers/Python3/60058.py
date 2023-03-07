@@ -1,3 +1,4 @@
+# 괄호 변환
 # 문자열을 u와 v로 분리하는 함수
 def seperate(p):
     left_count = 0
