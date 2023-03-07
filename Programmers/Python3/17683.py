@@ -1,3 +1,4 @@
+# [3차] 방금그곡
 def change(melody):
     if 'A#' in melody: melody = melody.replace('A#', 'a')
     if 'C#' in melody: melody = melody.replace('C#', 'c')
