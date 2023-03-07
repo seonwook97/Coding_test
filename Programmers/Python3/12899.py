@@ -1,3 +1,4 @@
+# 124 나라의 숫자
 def solution(n):
     answer = ''
     list = ['1', '2', '4']
