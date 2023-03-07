@@ -1,3 +1,4 @@
+# 튜플
 def solution(s):
     s = s[2:-2].split('},{')
     s.sort(key=len)
