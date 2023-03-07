@@ -1,3 +1,4 @@
+# 행렬 테두리 회전하기
 def solution(rows, cols, queries):
     # 맵 만들기
     maps = [[0 for _ in range(cols)] for _ in range(rows)]
