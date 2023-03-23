@@ -22,13 +22,13 @@ cnt = 0
 for i in range(1, n+1):
     for j in range(1, n+1):
         # (1) 모든 방향보다 클 때
-        # if all(map[i][j] > map[i+dx[k]][j+dy[k]] for k in range(4)):
-        #     cnt += 1
+        if all(map[i][j] > map[i+dx[k]][j+dy[k]] for k in range(4)):
+            cnt += 1
         
         # (2) 최대값 이용
-        max_num = max(map[i][j-1], map[i][j+1], map[i-1][j], map[i+1][j])
-        if map[i][j] > max_num:
-            cnt += 1
+        # max_num = max(map[i][j-1], map[i][j+1], map[i-1][j], map[i+1][j])
+        # if map[i][j] > max_num:
+        #     cnt += 1
 
 print(cnt)
 
