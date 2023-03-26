@@ -26,11 +26,12 @@ def count(size):
 
 n, m = map(int, input().split()) # n은 트랙 수, m은 DVD 개수 
 track_list = list(map(int, input().split()))
+max_track = max(track_list)
 left = 1
 right = sum(track_list)
 while left <= right:
     mid = (left + right) // 2
-    if count(mid) <= m:
+    if mid >= max_track and count(mid) <= m: # DVD의 용량은 트랙의 최대값보단 크거나 같아야 함
         result = mid
         right = mid -1
     
