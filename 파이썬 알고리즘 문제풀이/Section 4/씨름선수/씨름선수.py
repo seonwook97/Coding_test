@@ -1,9 +1,9 @@
 import math
 import time
 import sys
-sys.stdin = open('in1.txt', 'rt')
+# sys.stdin = open('in1.txt', 'rt')
 # 실행시간 체크
-start = time.time()
+# start = time.time()
 
 # code
 n = int(input())
@@ -18,6 +18,6 @@ for i in range(1, n):
         stack.append(apply_list[i]) 
 
 print(len(stack))
-end = time.time()
-print(f"{end - start:.7f} sec")
+# end = time.time()
+# print(f"{end - start:.7f} sec")
 # fst_code : 0.0009186 sec
