@@ -40,6 +40,7 @@
 - [스패닝 트리(Spanning Tree): O(E log V) (E: 간선 수, V: 정점 수)](#스패닝-트리spanning-tree-o-e-log-v-e-간선-수-v-정점-수)
 - [위상 정렬(Topological Sort): O(V+E) (V: 정점 수, E: 간선 수)](#위상-정렬topological-sort-ove-v-e-정점-수-e-간선-수)
 - [최소 공통 부분 문자열(LCS): O(nm) (n: 문자열1 길이, m: 문자열2 길이)](#최소-공통-부분-문자열lcs-onm-n-문자열1-길이-m-문자열2-길이)
+- [슬라이딩 윈도우(Sliding Window): O(n) ~ O(nlogn)](#슬라이딩-윈도우sliding-window-on--n--nlogn)
 
 ## 이진 탐색(Binary Search): O(log n)
 ```python
@@ -1143,4 +1144,21 @@ def lcs_dp(s1, s2):
         else:
             j -= 1
     return lcs
+```
+
+## 슬라이딩 윈도우(Sliding Window): O(n) ~ O(nlogn)
+```python
+def sliding_window(nums, k):
+    n = len(nums)
+    if n < k:
+        return None
+
+    window_sum = sum(nums[:k])
+    max_sum = window_sum
+
+    for i in range(1, n - k + 1):
+        window_sum = window_sum - nums[i - 1] + nums[i + k - 1]
+        max_sum = max(max_sum, window_sum)
+
+    return max_sum
 ```
