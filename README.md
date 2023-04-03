@@ -829,7 +829,7 @@ class HashTable:
         return False
 ```
 
-## 네트워크 플로우(Network Flow)
+## 네트워크 플로우(Network Flow): O(Ef) (f: 최대 유량)
 ```python
 class FlowNetwork:
     def __init__(self, vertices):
@@ -873,7 +873,7 @@ class FlowNetwork:
         return max_flow
 ```
 
-## 최소 공통 조상(Lowest Common Ancestor, LCA)
+## 최소 공통 조상(Lowest Common Ancestor, LCA): O(N + M) preprocessing, O(log N) query (N: 노드 수, M: 엣지 수)
 ```python
 class TreeNode:
     def __init__(self, val):
@@ -893,7 +893,7 @@ def find_lca(root, p, q):
     return left_lca if left_lca else right_lca
 ```
 
-## 문자열 매칭(String Matching) - 브루트 포스(Brute Force)
+## 문자열 매칭(String Matching) - 브루트 포스(Brute Force): O(nm) (n: 텍스트 길이, m: 패턴 길이)
 ```python
 def string_matching_brute_force(text, pattern):
     n, m = len(text), len(pattern)
@@ -906,7 +906,7 @@ def string_matching_brute_force(text, pattern):
     return -1
 ```
 
-## KMP 알고리즘
+## KMP 알고리즘: O(n + m) (n: 텍스트 길이, m: 패턴 길이)
 ```python
 def get_lps(pattern):
     n = len(pattern)
@@ -942,7 +942,7 @@ def string_matching_kmp(text, pattern):
     return -1
 ```
 
-## 보이어-무어 알고리즘
+## 보이어-무어 알고리즘: O(n + m) (n: 텍스트 길이, m: 패턴 길이)
 ```python
 def get_bad_char_table(pattern):
     table = {}
@@ -977,7 +977,7 @@ def string_matching_boyer_moore(text, pattern):
     return -1
 ```
 
-## 헝가리안 알고리즘(Hungarian Algorithm)
+## 헝가리안 알고리즘(Hungarian Algorithm): O(V^3) (V: 정점 수)
 ```python
 INF = float('inf')
 
@@ -1016,7 +1016,7 @@ def dfs(i, matching, cost_matrix, label_x, label_y, visited):
     return False
 ```
 
-## 스패닝 트리(Spanning Tree)
+## 스패닝 트리(Spanning Tree): O(E log V) (E: 간선 수, V: 정점 수)
 - Kruskal 알고리즘
 ```python
 class DisjointSet:
@@ -1076,7 +1076,7 @@ def prim_spanning_tree(n, edges):
     return mst
 ```
 
-## 위상 정렬(Topological Sort)
+## 위상 정렬(Topological Sort): O(V+E) (V: 정점 수, E: 간선 수)
 - DFS 이용
 ```python
 def dfs_topological_sort(u, adj_list, visited, stack):
@@ -1119,7 +1119,7 @@ def topological_sort_queue(n, edges):
     return topo_order
 ```
 
-## 최소 공통 부분 문자열(LCS)
+## 최소 공통 부분 문자열(LCS): O(nm) (n: 문자열1 길이, m: 문자열2 길이)
 - 동적 계획법(DP) 이용
 ```python
 def lcs_dp(s1, s2):
