@@ -1,6 +1,26 @@
 # 알고리즘 정리 by GPT-3.5
 ## 목차
 - [이진 탐색(Binary Search): O(log n)](#이진-탐색binary-search-o-log-n)
+- [버블 정렬(Bubble Sort): O(n^2)](#버블-정렬bubble-sort-o-n2)
+- [선택 정렬(Selection Sort): O(n^2)](#선택-정렬selection-sort-o-n2)
+- [삽입 정렬(Insertion Sort): O(n^2)](#삽입-정렬insertion-sort-o-n2)
+- [퀵 정렬(Quick Sort): O(n log n) (worst case: O(n^2))](#퀵-정렬quick-sort-on-log-n-worst-case-on2)
+- [합병 정렬(Merge Sort): O(n log n)](#합병-정렬merge-sort-o-n-log-n)
+- [깊이 우선 탐색(DFS): O(V + E)](#깊이-우선-탐색dfs-ov--e-v-정점-수-e-간선-수)
+- [너비 우선 탐색(BFS): O(V + E)](#너비-우선-탐색bfs-ov--e-v-정점-수-e-간선-수)
+- [최소 신장 트리(Kruskal's Algorithm): O(E log V)](#최소-신장-트리kruskals-algorithm-o-e-log-v)
+- [다익스트라 알고리즘(Dijkstra's Algorithm): O(E log V)](#다익스트라-알고리즘dijkstras-algorithm-o-e-log-v-e-간선-수-v-정점-수)
+- [플로이드-와샬 알고리즘(Floyd-Warshall Algorithm): O(V^3)](#플로이드-와샬-알고리즘floyd-warshall-algorithm-o-v3)
+- [최대 힙(Max Heap): O(log n)](#최대-힙max-heap-o-log-n-n-heap-size)
+- [이항 계수(Binomial Coefficient): O(n^2)](#이항-계수binomial-coefficient-on2)
+- [최대 공약수(Greatest Common Divisor): O(log(min(a, b))) ](#최대-공약수greatest-common-divisor-ologmina-b)
+- [소수 판별(Prime Check): O(sqrt(n))](#소수-판별prime-check-osqrtn)
+- [에라토스테네스의 체(Sieve of Eratosthenes): O(n log log n)](#에라토스테네스의-체sieve-of-eratosthenes-on-log-log-n)
+- [다항식 덧셈(Polynomial Addition): O(n)](#다항식-덧셈polynomial-addition-on)
+- [부분합(Prefix Sum): O(n)](#부분합prefix-sum-on)
+- [투 포인터(Two Pointer): O(n)](#투-포인터two-pointer-on)
+- [최장 증가 부분 수열(Longest Increasing Subsequence): O(n log n)](#최장-증가-부분-수열longest-increasing-subsequence-on-log-n)
+- [백트래킹(Backtracking)](#백트래킹backtracking)
 
 ## 이진 탐색(Binary Search): O(log n)
 ```python
