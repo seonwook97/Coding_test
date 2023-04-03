@@ -36,6 +36,10 @@
 - [문자열 매칭(String Matching) - 브루트 포스(Brute Force)](#문자열-매칭string-matching---브루트-포스brute-force)
 - [KMP 알고리즘](#kmp-알고리즘)
 - [보이어-무어 알고리즘](#보이어-무어-알고리즘)
+- [헝가리안 알고리즘(Hungarian Algorithm)](#헝가리안-알고리즘hungarian-algorithm)
+- [스패닝 트리(Spanning Tree)](#스패닝-트리spanning-tree)
+- [위상 정렬(Topological Sort)](#위상-정렬topological-sort)
+- [최소 공통 부분 문자열(LCS)](#최소-공통-부분-문자열lcs)
 
 ## 이진 탐색(Binary Search): O(log n)
 ```python
