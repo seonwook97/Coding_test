@@ -1,4 +1,6 @@
 # 알고리즘 정리 by GPT-3.5
+## 목차
+- [이진 탐색(Binary Search): O(log n)](#이진-탐색binary-search-o-log-n)
 
 ## 이진 탐색(Binary Search): O(log n)
 ```python
