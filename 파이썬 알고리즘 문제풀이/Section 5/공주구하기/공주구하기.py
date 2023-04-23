@@ -2,7 +2,7 @@ import math
 import time
 import sys
 from collections import deque
-sys.stdin = open('in1.txt', 'rt')
+# sys.stdin = open('in1.txt', 'rt')
 # 실행시간 체크
 # start = time.time()
 
