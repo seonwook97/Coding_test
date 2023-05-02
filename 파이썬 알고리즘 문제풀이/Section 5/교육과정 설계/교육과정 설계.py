@@ -17,9 +17,11 @@ for i in range(n):
             if x != dq.popleft():
                 print("#%d NO" %(i + 1))
                 break
+
     else:
         if len(dq) == 0:
             print("#%d YES" %(i + 1))
+            
         else:
             print("#%d NO" %(i + 1))
 
