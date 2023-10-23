@@ -1,0 +1,18 @@
+3 2
+santafe
+aerocity
+porter
+santafe 9 12
+porter 9 18
+
+결과:
+Roomaerocity:
+1available:
+09-18
+-----
+Roomporter:
+Notavailable
+-----
+Roomsantafe:
+1available:
+12-18
