@@ -1,0 +1,23 @@
+with cte as
+(
+SELECT
+    food_type,
+    max(favorites) max_cnt
+from
+    rest_info
+group by
+    1
+)
+select
+    a.food_type,
+    a.rest_id,
+    a.rest_name,
+    a.favorites
+from
+    rest_info a
+inner join -- 음식 종류별 max만
+    cte b 
+on a.food_type = b.food_type 
+and a.favorites = b.max_cnt
+order by
+    1 desc  
