@@ -1,8 +1,5 @@
-with cte as 
-(
 select
-    a.flavor,
-    a.sum_order_1 + b.sum_order_2 total_ord
+    a.flavor
 from
 (
     select
@@ -24,11 +21,6 @@ join
         1
 ) b on a.flavor = b.flavor 
 order by
-    2 desc
+    a.sum_order_1 + b.sum_order_2 desc
 limit 
     3
-)
-select
-    flavor
-from
-    cte
