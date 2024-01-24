@@ -1,4 +1,4 @@
-# 알고리즘 정리.
+# 알고리즘 정리
 ## 목차
 - [이진 탐색(Binary Search): O(log n)](#이진-탐색binary-search-o-log-n)
 - [버블 정렬(Bubble Sort): O(n^2)](#버블-정렬bubble-sort-o-n2)
